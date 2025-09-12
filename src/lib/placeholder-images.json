@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "about-sona",
+      "description": "A portrait of Sona Chavan.",
+      "imageUrl": "https://picsum.photos/seed/about-sona/500/500",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "project-1",
+      "description": "Screenshot of a food delivery app.",
+      "imageUrl": "https://picsum.photos/seed/project-1/600/400",
+      "imageHint": "app interface"
+    },
+    {
+      "id": "project-2",
+      "description": "Screenshot of a fintech application.",
+      "imageUrl": "https://picsum.photos/seed/project-2/600/400",
+      "imageHint": "dashboard analytics"
+    },
+    {
+      "id": "project-3",
+      "description": "Screenshot of an e-commerce website.",
+      "imageUrl": "https://picsum.photos/seed/project-3/600/400",
+      "imageHint": "website shopping"
+    }
+  ]
 }
