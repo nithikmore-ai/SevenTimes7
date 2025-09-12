@@ -1,4 +1,4 @@
-import { GitHub, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import { DribbbleIcon } from '@/components/icons/dribbble-icon';
 import { BehanceIcon } from '@/components/icons/behance-icon';
 import { NavLink, Project, SkillCategory, SocialLink, Testimonial } from './types';
@@ -13,7 +13,7 @@ export const navLinks: NavLink[] = [
 
 export const socialLinks: SocialLink[] = [
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/sona-chavan/', icon: Linkedin },
-  { name: 'GitHub', url: 'https://github.com/sona-chavan', icon: GitHub },
+  { name: 'GitHub', url: 'https://github.com/sona-chavan', icon: Github },
   { name: 'Dribbble', url: 'https://dribbble.com/sona-chavan', icon: DribbbleIcon },
   { name: 'Behance', url: 'https://www.behance.net/sona-chavan', icon: BehanceIcon },
   { name: 'Mail', url: 'mailto:sonachavan.dev@gmail.com', icon: Mail },
