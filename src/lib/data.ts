@@ -118,7 +118,7 @@ export const projectsData: Project[] = [
     title: 'Armani "Sì" Perfume',
     description: 'A cinematic landing page for the Armani Sì fragrance, featuring a short film.',
     tags: ['Video Content', 'Landing Page', 'Fragrance'],
-    imageUrl: 'https://picsum.photos/seed/armani-perfume/600/400',
+    imageUrl: 'https://assets-cf.armani.com/image/upload/f_auto,q_auto:best,ar_4:5,w_1350,c_fill/LE415700_NLP_100ML_D_FW2025.jpg',
     imageHint: 'red perfume bottle'
   },
 ];

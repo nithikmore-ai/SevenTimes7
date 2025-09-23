@@ -45,6 +45,12 @@ const nextConfig: NextConfig = {
         hostname: 'static.fendi.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'assets-cf.armani.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
