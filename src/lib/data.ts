@@ -7,7 +7,7 @@ export const navLinks: NavLink[] = [
   { name: 'Collections', href: '#projects' },
   { name: 'Expertise', href: '#skills' },
   { name: 'Acclaim', href: '#testimonials' },
-  { name: 'Blog', href: 'https://www.sonachavan.com', external: true },
+  { name: 'Blog', href: 'https://www.vogue.com/fashion', external: true },
   { name: 'Contact', href: '#contact' },
 ];
 
@@ -34,7 +34,7 @@ export const projectsData: Project[] = [
     title: 'Gucci "Flora" Campaign',
     description: 'An immersive digital experience for the "Flora" perfume launch, featuring interactive botanicals and AR try-on features.',
     tags: ['WebGL', 'AR', 'Interactive Storytelling'],
-    imageUrl: "https://picsum.photos/seed/fashion-project-1/600/400",
+    imageUrl: "https://images.unsplash.com/photo-1557167668-6eb71e76b603?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxHdWNjaXxlbnwwfHx8fDE3NTg2MTczMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     imageHint: "perfume bottle flowers"
   },
   {
