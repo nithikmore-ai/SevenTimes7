@@ -104,7 +104,7 @@ export const projectsData: Project[] = [
     title: 'Mango "Flowy" Dress',
     description: 'A digital lookbook showcasing Mango\'s summer collection with video backgrounds.',
     tags: ['Digital Lookbook', 'Video Content', 'Fast Fashion'],
-    imageUrl: 'https://picsum.photos/seed/mango-dress/600/400',
+    imageUrl: 'https://shop.mango.com/assets/rcs/pics/static/T1/fotos/S/17041210_30_D6.jpg?ts=1748246764196&im=SmartCrop,width=480,height=672&imdensity=1',
     imageHint: 'summer dress'
   },
   {

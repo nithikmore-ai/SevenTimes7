@@ -33,6 +33,12 @@ const nextConfig: NextConfig = {
         hostname: 'diorama.dam-broadcast.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'shop.mango.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
