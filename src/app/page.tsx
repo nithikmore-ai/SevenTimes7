@@ -6,6 +6,9 @@ import Projects from '@/components/page/projects';
 import Testimonials from '@/components/page/testimonials';
 import Contact from '@/components/page/contact';
 import Footer from '@/components/page/footer';
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
+import { ChevronRight } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -14,7 +17,14 @@ export default function Home() {
       <main className="flex flex-col items-center px-4">
         <Hero />
         <About />
-        <Projects />
+        <Projects limit={3} />
+        <div className="text-center -mt-16 mb-24 sm:-mt-20 sm:mb-32">
+            <Button asChild variant="outline">
+                <Link href="/collections">
+                    View All Collections <ChevronRight className="ml-2 h-4 w-4" />
+                </Link>
+            </Button>
+        </div>
         <Skills />
         <Testimonials />
         <Contact />

@@ -4,7 +4,7 @@ import { NavLink, Project, SkillCategory, SocialLink, Testimonial } from './type
 
 export const navLinks: NavLink[] = [
   { name: 'Vision', href: '#about' },
-  { name: 'Collections', href: '#projects' },
+  { name: 'Collections', href: '/collections' },
   { name: 'Expertise', href: '#skills' },
   { name: 'Acclaim', href: '#testimonials' },
   { name: 'Blog', href: 'https://www.vogue.com/fashion', external: true },

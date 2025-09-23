@@ -7,12 +7,18 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { ExternalLink } from 'lucide-react';
 
-export default function Projects() {
+type ProjectsProps = {
+    limit?: number;
+};
+
+export default function Projects({ limit }: ProjectsProps) {
+    const projects = limit ? projectsData.slice(0, limit) : projectsData;
+
   return (
     <section id="projects" className="w-full max-w-5xl pt-12 pb-24 sm:pt-16 sm:pb-32 scroll-mt-28">
       <SectionHeading>My Projects</SectionHeading>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {projectsData.map((project, index) => (
+        {projects.map((project, index) => (
           <Card key={index} className="flex flex-col overflow-hidden group hover:shadow-xl transition-shadow duration-300">
             <CardHeader>
               <CardTitle>{project.title}</CardTitle>
