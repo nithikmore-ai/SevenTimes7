@@ -11,13 +11,6 @@ export const navLinks: NavLink[] = [
   { name: 'Contact', href: '#contact' },
 ];
 
-export const socialLinks: SocialLink[] = [
-  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/sona-chavan/', icon: Linkedin },
-  { name: 'GitHub', url: 'https://github.com/sona-chavan', icon: Github },
-  { name: 'Dribbble', url: 'https://dribbble.com/sona-chavan', icon: DribbbleIcon },
-  { name: 'Mail', url: 'mailto:sonachavan.dev@gmail.com', icon: Mail },
-];
-
 export const skillData: SkillCategory[] = [
   {
     title: 'Digital Atelier',
