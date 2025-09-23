@@ -69,7 +69,7 @@ export const projectsData: Project[] = [
     title: 'Versace "Medusa" Campaign',
     description: 'A bold, interactive campaign exploring the power and allure of the Medusa emblem, a cornerstone of the Versace brand.',
     tags: ['Interactive Campaign', 'Brand Storytelling', 'Animation'],
-    imageUrl: 'https://picsum.photos/seed/versace-medusa/600/400',
+    imageUrl: 'https://images.unsplash.com/photo-1741816219305-827580cab505?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOXx8dmVyc2FjZSUyMHdvbWVuJTIwZHJlc3N8ZW58MHx8fHwxNzU4NjE5MDU3fDA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'medusa logo gold'
   },
   {
