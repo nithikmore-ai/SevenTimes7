@@ -16,7 +16,7 @@ import { Quote } from 'lucide-react';
 export default function Testimonials() {
   return (
     <section id="testimonials" className="w-full max-w-5xl py-24 sm:py-32 scroll-mt-28">
-      <SectionHeading>Testimonials</SectionHeading>
+      <SectionHeading>Words from the Industry</SectionHeading>
       <Carousel
         opts={{
           align: 'start',
@@ -38,7 +38,7 @@ export default function Testimonials() {
                     <Quote className="w-8 h-8 text-primary" />
                     <p className="text-muted-foreground italic">"{testimonial.quote}"</p>
                     <div>
-                      <p className="font-semibold text-primary">{testimonial.name}</p>
+                      <p className="font-semibold text-primary font-headline">{testimonial.name}</p>
                       <p className="text-sm text-muted-foreground">{testimonial.title}</p>
                     </div>
                   </CardContent>

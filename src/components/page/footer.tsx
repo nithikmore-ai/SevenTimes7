@@ -18,11 +18,11 @@ export default function Footer() {
             </a>
           ))}
         </div>
-        <p className="text-sm text-muted-foreground mb-2">
-            "Living, learning, & leveling up one day at a time."
+        <p className="text-sm text-muted-foreground mb-2 font-headline italic">
+            "Style is a way to say who you are without having to speak."
         </p>
         <small className="text-xs text-muted-foreground">
-          &copy; {new Date().getFullYear()} Sona Chavan. All rights reserved.
+          &copy; {new Date().getFullYear()} FASHION NXT. All rights reserved.
         </small>
       </div>
     </footer>

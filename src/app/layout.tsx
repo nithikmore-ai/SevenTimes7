@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'SonaChavan Digital Portfolio',
-  description: 'A digital portfolio for Sona Chavan, Product Designer & Frontend Developer.',
+  title: 'FASHION NXT - A Premier Fashion Portfolio',
+  description: 'Exploring the intersection of high fashion, design, and technology. A digital portfolio showcasing cutting-edge fashion projects.',
 };
 
 export default function RootLayout({
@@ -17,7 +17,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
       </head>
       <body className="font-body antialiased">
         {children}

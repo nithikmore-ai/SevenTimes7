@@ -4,29 +4,29 @@ import SectionHeading from './section-heading';
 export default function About() {
   return (
     <section id="about" className="w-full max-w-5xl py-24 sm:py-32 scroll-mt-28">
-      <SectionHeading>About Me</SectionHeading>
+      <SectionHeading>The Vision</SectionHeading>
       <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-center">
         <div className="md:col-span-1 flex justify-center">
           <Image
-            src="https://picsum.photos/seed/about-sona/500/500"
-            alt="Portrait of Sona Chavan"
+            src="https://picsum.photos/seed/fashion-portrait/500/500"
+            alt="Portrait of the lead designer"
             width={250}
             height={250}
             quality={95}
             priority
             className="rounded-full object-cover border-4 border-primary/20 shadow-lg"
-            data-ai-hint="woman portrait"
+            data-ai-hint="fashion model"
           />
         </div>
         <div className="md:col-span-2 text-center md:text-left text-muted-foreground space-y-4">
           <p>
-            Hello! I'm Sona, a passionate Product Designer and Frontend Developer with a knack for creating engaging and user-friendly digital experiences. With a background in both design and development, I bridge the gap between aesthetics and functionality to deliver products that are not only beautiful but also intuitive and efficient.
+            Welcome to FASHION NXT, where classic elegance meets modern innovation. We are a collective of digital artisans and fashion connoisseurs dedicated to crafting the future of style. Our work is a testament to the belief that fashion is not just about clothing, but about storytelling and identity.
           </p>
           <p>
-            My journey into the world of tech began with a curiosity for how things work, which quickly evolved into a passion for building and designing. I thrive in collaborative environments, working alongside cross-functional teams to solve complex problems and bring innovative ideas to life.
+            With a pulse on the ever-evolving trends of the fashion world, we create digital experiences that are as captivating and timeless as the brands we partner with. We specialize in bringing haute couture to the digital realm, ensuring every pixel reflects luxury and sophistication.
           </p>
           <p>
-            When I'm not coding or designing, you can find me exploring new coffee shops, sketching, or getting lost in a good book. I believe in lifelong learning and am always eager to pick up new skills and technologies.
+            Outside the digital atelier, we draw inspiration from the world's fashion capitals, timeless cinema, and the raw beauty of nature. We are perpetual students of art and design, constantly refining our craft to deliver unparalleled digital craftsmanship.
           </p>
         </div>
       </div>

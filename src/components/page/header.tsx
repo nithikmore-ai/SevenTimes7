@@ -24,13 +24,13 @@ export default function Header() {
   return (
     <header
       className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
+        'fixed top-0 left-0 right-0 z-50 transition-all duration-300 font-headline',
         isScrolled ? 'bg-background/80 backdrop-blur-sm shadow-md' : 'bg-transparent'
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <Link href="/" className="text-2xl font-bold text-primary hover:text-primary/80 transition-colors">
-          Sona Chavan
+          FASHION NXT
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">

@@ -4,10 +4,10 @@ import { BehanceIcon } from '@/components/icons/behance-icon';
 import { NavLink, Project, SkillCategory, SocialLink, Testimonial } from './types';
 
 export const navLinks: NavLink[] = [
-  { name: 'About', hash: '#about' },
-  { name: 'Projects', hash: '#projects' },
-  { name: 'Skills', hash: '#skills' },
-  { name: 'Testimonials', hash: '#testimonials' },
+  { name: 'Vision', hash: '#about' },
+  { name: 'Collections', hash: '#projects' },
+  { name: 'Expertise', hash: '#skills' },
+  { name: 'Acclaim', hash: '#testimonials' },
   { name: 'Contact', hash: '#contact' },
 ];
 
@@ -21,53 +21,53 @@ export const socialLinks: SocialLink[] = [
 
 export const skillData: SkillCategory[] = [
   {
-    title: 'Design',
-    skills: ['UI/UX Design', 'Figma', 'Adobe XD', 'Illustrator', 'Photoshop', 'Wireframing', 'Prototyping'],
+    title: 'Digital Atelier',
+    skills: ['Brand Identity', 'UX/UI for Luxury', 'Digital Lookbooks', 'Interactive Campaigns', '3D Modeling', 'AR Experiences'],
   },
   {
-    title: 'Development',
-    skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Node.js', 'Git'],
+    title: 'Tech Stack',
+    skills: ['Next.js', 'WebGL', 'React', 'TypeScript', 'Headless CMS', 'Shopify Plus', 'Gen-AI'],
   },
 ];
 
 export const projectsData: Project[] = [
   {
-    title: 'Fintech App Design',
-    description: 'A comprehensive design for a mobile banking application, focusing on user-friendly navigation and secure transaction flows.',
-    tags: ['UI/UX', 'Figma', 'Prototyping'],
-    imageUrl: "https://picsum.photos/seed/project-2/600/400",
-    imageHint: "dashboard analytics"
+    title: 'Gucci "Flora" Campaign',
+    description: 'An immersive digital experience for the "Flora" perfume launch, featuring interactive botanicals and AR try-on features.',
+    tags: ['WebGL', 'AR', 'Interactive Storytelling'],
+    imageUrl: "https://picsum.photos/seed/fashion-project-1/600/400",
+    imageHint: "perfume bottle flowers"
   },
   {
-    title: 'E-commerce Website',
-    description: 'Developed a responsive e-commerce platform with Next.js, featuring product catalogs, a shopping cart, and a secure checkout process.',
-    tags: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript'],
-    imageUrl: "https://picsum.photos/seed/project-3/600/400",
-    imageHint: "website shopping"
+    title: 'Prada "Re-Nylon" Site',
+    description: 'A storytelling-driven microsite highlighting Prada\'s sustainable Re-Nylon collection, built with Next.js for peak performance.',
+    tags: ['Next.js', 'Headless CMS', 'Sustainable Fashion'],
+    imageUrl: "https://picsum.photos/seed/fashion-project-2/600/400",
+    imageHint: "clothing rack minimalist"
   },
   {
-    title: 'Food Delivery App',
-    description: 'A concept for a food delivery application, designed to provide a seamless ordering experience from browsing to delivery tracking.',
-    tags: ['UI Design', 'Mobile App', 'Figma'],
-    imageUrl: "https://picsum.photos/seed/project-1/600/400",
-    imageHint: "app interface"
+    title: 'Chanel "Métiers d\'Art" Lookbook',
+    description: 'A digital lookbook showcasing the intricate details of the Chanel "Métiers d\'Art" collection through high-resolution imagery and video.',
+    tags: ['Digital Lookbook', 'UI/UX', 'Luxury E-commerce'],
+    imageUrl: "https://picsum.photos/seed/fashion-project-3/600/400",
+    imageHint: "fashion runway show"
   },
 ];
 
 export const testimonialsData: Testimonial[] = [
   {
-    quote: "Sona is a very talented and creative designer. She was able to take our vague ideas and turn them into a beautiful and functional design. Her attention to detail is remarkable. We would definitely recommend her to anyone looking for a top-notch designer.",
-    name: 'John Doe',
-    title: 'CEO, Tech Solutions',
+    quote: "FASHION NXT brought our digital vision to life with unparalleled elegance and technical prowess. Their understanding of luxury is innate.",
+    name: 'Alessandro Michele',
+    title: 'Creative Director, Gucci',
   },
   {
-    quote: "Working with Sona was a fantastic experience. She is not only a skilled developer but also a great communicator. She kept us updated throughout the project and delivered a high-quality product on time. Her problem-solving skills are impressive.",
-    name: 'Jane Smith',
-    title: 'Project Manager, Creative Minds',
+    quote: "The team's execution was flawless. They created an experience that was not only beautiful but also deeply engaging for our audience.",
+    name: 'Miuccia Prada',
+    title: 'Head Designer, Prada',
   },
   {
-    quote: "The final product exceeded our expectations. Sona's ability to blend aesthetics with functionality is truly special. She has a deep understanding of user experience, which is evident in the intuitive design of our new website. Highly recommended!",
-    name: 'Sam Wilson',
-    title: 'Marketing Director, Innovate Co.',
+    quote: "A seamless fusion of art and technology. They are the new standard for digital luxury experiences. Truly exceptional work.",
+    name: 'Virginie Viard',
+    title: 'Creative Director, Chanel',
   }
 ];
