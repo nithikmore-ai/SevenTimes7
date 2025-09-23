@@ -1,9 +1,6 @@
 import Footer from '@/components/page/footer';
 import Header from '@/components/page/header';
 import Projects from '@/components/page/projects';
-import SectionHeading from '@/components/page/section-heading';
-import { Button } from '@/components/ui/button';
-import Link from 'next/link';
 
 export default function CollectionsPage() {
   return (

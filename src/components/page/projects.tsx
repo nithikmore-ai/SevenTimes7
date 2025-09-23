@@ -3,9 +3,7 @@ import { projectsData } from '@/lib/data';
 import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { ExternalLink } from 'lucide-react';
 
 type ProjectsProps = {
     limit?: number;
@@ -19,7 +17,7 @@ export default function Projects({ limit }: ProjectsProps) {
       <SectionHeading>My Projects</SectionHeading>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
-          <Link href={project.liveUrl || '#'} target="_blank" key={index} className="flex">
+          <Link href={`/collections/${project.slug}`} key={index} className="flex">
             <Card className="flex flex-col overflow-hidden group hover:shadow-xl transition-shadow duration-300 w-full">
               <CardHeader>
                 <CardTitle>{project.title}</CardTitle>
@@ -45,13 +43,6 @@ export default function Projects({ limit }: ProjectsProps) {
                       </Badge>
                       ))}
                   </div>
-                   {project.liveUrl && (
-                      <Button asChild variant="outline" size="sm" className="mt-auto">
-                          <Link href={project.liveUrl} target="_blank">
-                              Live Demo <ExternalLink className="ml-2 h-4 w-4" />
-                          </Link>
-                      </Button>
-                   )}
               </CardFooter>
             </Card>
           </Link>

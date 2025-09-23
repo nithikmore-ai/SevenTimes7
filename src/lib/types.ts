@@ -20,6 +20,7 @@ export type SkillCategory = {
 
 export type Project = {
   title: string;
+  slug: string;
   description: string;
   tags: string[];
   imageUrl: string;

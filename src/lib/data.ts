@@ -32,27 +32,34 @@ export const skillData: SkillCategory[] = [
 export const projectsData: Project[] = [
   {
     title: 'Gucci "Flora" Campaign',
+    slug: 'gucci-flora-campaign',
     description: 'An immersive digital experience for the "Flora" perfume launch, featuring interactive botanicals and AR try-on features.',
     tags: ['WebGL', 'AR', 'Interactive Storytelling'],
     imageUrl: "https://images.unsplash.com/photo-1557167668-6eb71e76b603?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxHdWNjaXxlbnwwfHx8fDE3NTg2MTczMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    imageHint: "perfume bottle flowers"
+    imageHint: "perfume bottle flowers",
+    liveUrl: 'https://www.gucci.com/us/en/st/stories/advertising-campaign/article/flora-fantasy-adv-campaign'
   },
   {
     title: 'Prada "Re-Nylon" Site',
+    slug: 'prada-re-nylon-site',
     description: 'A storytelling-driven microsite highlighting Prada\'s sustainable Re-Nylon collection, built with Next.js for peak performance.',
     tags: ['Next.js', 'Headless CMS', 'Sustainable Fashion'],
     imageUrl: "https://images.unsplash.com/photo-1630696779947-7e349002cc38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxQcmFkYXxlbnwwfHx8fDE3NTg2MTc0Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    imageHint: "clothing rack minimalist"
+    imageHint: "clothing rack minimalist",
+    liveUrl: 'https://www.prada.com/us/en/pradasphere/re-nylon.html'
   },
   {
     title: 'Chanel "Métiers d\'Art" Lookbook',
+    slug: 'chanel-metiers-d-art-lookbook',
     description: 'A digital lookbook showcasing the intricate details of the Chanel "Métiers d\'Art" collection through high-resolution imagery and video.',
     tags: ['Digital Lookbook', 'UI/UX', 'Luxury E-commerce'],
     imageUrl: "https://images.unsplash.com/photo-1592840054664-6bc0f6fbc3d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxDaGFuZWx8ZW58MHx8fHwxNzU4NjE3MzkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    imageHint: "fashion runway show"
+    imageHint: "fashion runway show",
+    liveUrl: 'https://www.chanel.com/us/fashion/collection/metiers-d-art/'
   },
   {
     title: 'Coach Handbag',
+    slug: 'coach-handbag',
     description: 'A 3D interactive model of a classic Coach handbag, allowing users to explore the craftsmanship in detail.',
     tags: ['3D Modeling', 'E-commerce', 'Product Showcase'],
     imageUrl: 'https://images.unsplash.com/photo-1586232910255-39a583b81d52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNXx8Q29hY2glMjBoYW5kYmFnfGVufDB8fHx8MTc1ODYxODM5Mnww&ixlib=rb-4.1.0&q=80&w=1080',
@@ -60,6 +67,7 @@ export const projectsData: Project[] = [
   },
   {
     title: 'Balenciaga Campaign',
+    slug: 'balenciaga-campaign',
     description: 'A bold, animated campaign site for Balenciaga, capturing their rebellious spirit.',
     tags: ['Animation', 'Brand Campaign', 'Footwear'],
     imageUrl: 'https://images.unsplash.com/photo-1689711880342-0cb516d7be0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxN3x8YmFsZW5jaWFnYSUyMHNhbmRlbHN8ZW58MHx8fHwxNzU4NjE5NDcxfDA&ixlib=rb-4.1.0&q=80&w=1080',
@@ -67,6 +75,7 @@ export const projectsData: Project[] = [
   },
   {
     title: 'Versace "Medusa" Campaign',
+    slug: 'versace-medusa-campaign',
     description: 'A bold, interactive campaign exploring the power and allure of the Medusa emblem, a cornerstone of the Versace brand.',
     tags: ['Interactive Campaign', 'Brand Storytelling', 'Animation'],
     imageUrl: 'https://images.unsplash.com/photo-1741816219305-827580cab505?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOXx8dmVyc2FjZSUyMHdvbWVuJTIwZHJlc3N8ZW58MHx8fHwxNzU4NjE5MDU3fDA&ixlib=rb-4.1.0&q=80&w=1080',
@@ -74,6 +83,7 @@ export const projectsData: Project[] = [
   },
   {
     title: 'Dior "J\'adore" Campaign',
+    slug: 'dior-jadore-campaign',
     description: 'A golden, shimmering web experience for the iconic J\'adore fragrance.',
     tags: ['Animation', 'Luxury Branding', 'Fragrance'],
     imageUrl: 'https://diorama.dam-broadcast.com/cdn-cgi/image/width=1850,format=auto/pm_11872_1165_1165593-iniflxbeyq-whr.jpg',
@@ -81,6 +91,7 @@ export const projectsData: Project[] = [
   },
   {
     title: 'Louis Vuitton "Keepall" Bag',
+    slug: 'louis-vuitton-keepall-bag',
     description: 'An interactive 3D configurator for the classic Keepall travel bag.',
     tags: ['3D Modeling', 'E-commerce', 'Luxury Goods'],
     imageUrl: 'https://images.unsplash.com/photo-1753718605172-86d37d27596d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyMHx8TG91aXMlMjB2dWl0dG9uJTIwZHVmZmVsJTIwYmFnfGVufDB8fHx8MTc1ODYxOTc0M3ww&ixlib=rb-4.1.0&q=80&w=1080',
@@ -88,6 +99,7 @@ export const projectsData: Project[] = [
   },
   {
     title: 'Michael Kors "Bradshaw" Watch',
+    slug: 'michael-kors-bradshaw-watch',
     description: 'A sleek, elegant product page for the Bradshaw smartwatch collection.',
     tags: ['UI/UX', 'rome', 'Wearable Tech'],
     imageUrl: 'https://images.unsplash.com/photo-1734341739615-71be2b1cdb06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxNSyUyMHdvbWVuJTIwdGltZXdhdGNofGVufDB8fHx8MTc1ODYxOTg1OHww&ixlib=rb-4.1.0&q=80&w=1080',
@@ -95,6 +107,7 @@ export const projectsData: Project[] = [
   },
   {
     title: 'Aldo "Stessy" Heels',
+    slug: 'aldo-stessy-heels',
     description: 'A fun AR try-on experience for Aldo\'s best-selling "Stessy" heels.',
     tags: ['AR', 'Footwear', 'E-commerce'],
     imageUrl: 'https://images.unsplash.com/photo-1459712105412-be146fae746d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxBbGRvJTIwaGlnaCUyMGhlZWxzfGVufDB8fHx8MTc1ODYxOTkxNnww&ixlib=rb-4.1.0&q=80&w=1080',
@@ -102,6 +115,7 @@ export const projectsData: Project[] = [
   },
   {
     title: 'Mango "Flowy" Dress',
+    slug: 'mango-flowy-dress',
     description: 'A digital lookbook showcasing Mango\'s summer collection with video backgrounds.',
     tags: ['Digital Lookbook', 'Video Content', 'Fast Fashion'],
     imageUrl: 'https://shop.mango.com/assets/rcs/pics/static/T1/fotos/S/17041210_30_D6.jpg?ts=1748246764196&im=SmartCrop,width=480,height=672&imdensity=1',
@@ -109,6 +123,7 @@ export const projectsData: Project[] = [
   },
   {
     title: 'Fendi "Baguette" Bag',
+    slug: 'fendi-baguette-bag',
     description: 'A campaign microsite celebrating the 25th anniversary of the Fendi Baguette bag.',
     tags: ['Brand Storytelling', 'Microsite', 'Handbags'],
     imageUrl: 'https://static.fendi.com/dam/is/image/fendi/8BR839AV5CF18H6_01?wid=1000&hei=1000&hash=947cfc7b75687c419de4c391f22019dc-197e90f8458',
@@ -116,6 +131,7 @@ export const projectsData: Project[] = [
   },
   {
     title: 'Armani "Sì" Perfume',
+    slug: 'armani-si-perfume',
     description: 'A cinematic landing page for the Armani Sì fragrance, featuring a short film.',
     tags: ['Video Content', 'Landing Page', 'Fragrance'],
     imageUrl: 'https://assets-cf.armani.com/image/upload/f_auto,q_auto:best,ar_4:5,w_1350,c_fill/LE415700_NLP_100ML_D_FW2025.jpg',
