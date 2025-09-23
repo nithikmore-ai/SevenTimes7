@@ -23,6 +23,48 @@
       "description": "A bottle of Chanel No. 5 perfume.",
       "imageUrl": "https://images.unsplash.com/photo-1627823569857-4d8581dc62b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwZXJmdW1lJTIwYm90dGxlJTIwZWxlZ2FudHxlbnwwfHx8fDE3NTg2MTc2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "perfume bottle elegant"
+    },
+    {
+      "id": "dior-perfume",
+      "description": "Dior J'adore perfume bottle.",
+      "imageUrl": "https://images.unsplash.com/photo-1758225502621-9102d2856dc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwZXJmdW1lJTIwYm90dGxlJTIwZ29sZHxlbnwwfHx8fDE3NTg2MTgxMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume bottle gold"
+    },
+    {
+      "id": "lv-bag",
+      "description": "Louis Vuitton Keepall travel bag.",
+      "imageUrl": "https://images.unsplash.com/photo-1758264839086-2bdecc06d9a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0cmF2ZWwlMjBiYWclMjBwYXR0ZXJufGVufDB8fHx8MTc1ODYxODEzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "travel bag pattern"
+    },
+    {
+      "id": "mk-watch",
+      "description": "Michael Kors Bradshaw gold watch.",
+      "imageUrl": "https://images.unsplash.com/photo-1447015237013-0e80b2786ddc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Z29sZCUyMHdhdGNofGVufDB8fHx8MTc1ODYxNTcwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gold watch"
+    },
+    {
+      "id": "aldo-heels",
+      "description": "A pair of Aldo Stessy high heels.",
+      "imageUrl": "https://images.unsplash.com/photo-1611233299310-f6276ff55307?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoaWdoJTIwaGVlbHN8ZW58MHx8fHwxNzU4NjA4OTMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "high heels"
+    },
+    {
+      "id": "mango-dress",
+      "description": "A Mango flowy summer dress.",
+      "imageUrl": "https://images.unsplash.com/photo-1609695813802-3c443be34359?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdW1tZXIlMjBkcmVzc3xlbnwwfHx8fDE3NTg1ODY3Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "summer dress"
+    },
+    {
+      "id": "fendi-bag",
+      "description": "A Fendi Baguette designer handbag.",
+      "imageUrl": "https://images.unsplash.com/photo-1685527012908-394504c2a230?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkZXNpZ25lciUyMGhhbmRiYWd8ZW58MHx8fHwxNzU4NjE4MTMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "designer handbag"
+    },
+    {
+      "id": "armani-perfume",
+      "description": "Armani Sì red perfume bottle.",
+      "imageUrl": "https://images.unsplash.com/photo-1660006690420-c6d661778c9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyZWQlMjBwZXJmdW1lJTIwYm90dGxlfGVufDB8fHx8MTc1ODYxODEzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "red perfume bottle"
     }
   ]
 }

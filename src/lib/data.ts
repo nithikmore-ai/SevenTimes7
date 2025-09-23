@@ -72,6 +72,55 @@ export const projectsData: Project[] = [
     imageUrl: 'https://picsum.photos/seed/chanel-perfume/600/400',
     imageHint: 'perfume bottle elegant'
   },
+  {
+    title: 'Dior "J\'adore" Campaign',
+    description: 'A golden, shimmering web experience for the iconic J\'adore fragrance.',
+    tags: ['Animation', 'Luxury Branding', 'Fragrance'],
+    imageUrl: 'https://picsum.photos/seed/dior-perfume/600/400',
+    imageHint: 'perfume bottle gold'
+  },
+  {
+    title: 'Louis Vuitton "Keepall" Bag',
+    description: 'An interactive 3D configurator for the classic Keepall travel bag.',
+    tags: ['3D Modeling', 'E-commerce', 'Luxury Goods'],
+    imageUrl: 'https://picsum.photos/seed/lv-bag/600/400',
+    imageHint: 'travel bag pattern'
+  },
+  {
+    title: 'Michael Kors "Bradshaw" Watch',
+    description: 'A sleek, elegant product page for the Bradshaw smartwatch collection.',
+    tags: ['UI/UX', 'Product Page', 'Wearable Tech'],
+    imageUrl: 'https://picsum.photos/seed/mk-watch/600/400',
+    imageHint: 'gold watch'
+  },
+  {
+    title: 'Aldo "Stessy" Heels',
+    description: 'A fun AR try-on experience for Aldo\'s best-selling "Stessy" heels.',
+    tags: ['AR', 'Footwear', 'E-commerce'],
+    imageUrl: 'https://picsum.photos/seed/aldo-heels/600/400',
+    imageHint: 'high heels'
+  },
+  {
+    title: 'Mango "Flowy" Dress',
+    description: 'A digital lookbook showcasing Mango\'s summer collection with video backgrounds.',
+    tags: ['Digital Lookbook', 'Video Content', 'Fast Fashion'],
+    imageUrl: 'https://picsum.photos/seed/mango-dress/600/400',
+    imageHint: 'summer dress'
+  },
+  {
+    title: 'Fendi "Baguette" Bag',
+    description: 'A campaign microsite celebrating the 25th anniversary of the Fendi Baguette bag.',
+    tags: ['Brand Storytelling', 'Microsite', 'Handbags'],
+    imageUrl: 'https://picsum.photos/seed/fendi-bag/600/400',
+    imageHint: 'designer handbag'
+  },
+  {
+    title: 'Armani "Sì" Perfume',
+    description: 'A cinematic landing page for the Armani Sì fragrance, featuring a short film.',
+    tags: ['Video Content', 'Landing Page', 'Fragrance'],
+    imageUrl: 'https://picsum.photos/seed/armani-perfume/600/400',
+    imageHint: 'red perfume bottle'
+  },
 ];
 
 export const testimonialsData: Testimonial[] = [
