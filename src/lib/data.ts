@@ -55,7 +55,7 @@ export const projectsData: Project[] = [
     title: 'Coach Handbag',
     description: 'A 3D interactive model of a classic Coach handbag, allowing users to explore the craftsmanship in detail.',
     tags: ['3D Modeling', 'E-commerce', 'Product Showcase'],
-    imageUrl: 'https://picsum.photos/seed/coach-bag/600/400',
+    imageUrl: 'https://images.unsplash.com/photo-1586232910255-39a583b81d52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNXx8Q29hY2glMjBoYW5kYmFnfGVufDB8fHx8MTc1ODYxODM5Mnww&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'leather handbag'
   },
   {
