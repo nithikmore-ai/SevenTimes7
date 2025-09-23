@@ -20,12 +20,12 @@ export const socialLinks: SocialLink[] = [
 
 export const skillData: SkillCategory[] = [
   {
-    title: 'Digital Atelier',
-    skills: ['Brand Identity', 'UX/UI for Luxury', 'Digital Lookbooks', 'Interactive Campaigns', '3D Modeling', 'AR Experiences'],
+    title: 'Creative & Strategy',
+    skills: ['Luxury Brand Strategy', 'Digital Collection Launch', 'Campaign Conception', 'AR & Virtual Try-On', 'Web3 & NFT Strategy', 'Experiential Design'],
   },
   {
-    title: 'Tech Stack',
-    skills: ['Next.js', 'WebGL', 'React', 'TypeScript', 'Headless CMS', 'Shopify Plus', 'Gen-AI'],
+    title: 'Technology & Platform',
+    skills: ['Next.js & React', 'Photorealistic 3D', 'WebGL & Three.js', 'Headless E-commerce', 'Generative AI', 'Custom Shopify Apps'],
   },
 ];
 
