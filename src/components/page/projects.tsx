@@ -17,7 +17,7 @@ export default function Projects({ limit }: ProjectsProps) {
       <SectionHeading>My Projects</SectionHeading>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
-          <Link href={`/collections/${project.slug}`} key={index} className="flex">
+          <Link href={`/collections/${project.slug}`} key={index} className="flex" target="_blank" rel="noopener noreferrer">
             <Card className="flex flex-col overflow-hidden group hover:shadow-xl transition-shadow duration-300 w-full">
               <CardHeader>
                 <CardTitle>{project.title}</CardTitle>
