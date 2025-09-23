@@ -66,11 +66,11 @@ export const projectsData: Project[] = [
     imageHint: 'black boots'
   },
   {
-    title: 'Chanel No. 5 Experience',
-    description: 'A virtual journey through the history and creation of the legendary Chanel No. 5 perfume.',
-    tags: ['Virtual Reality', 'Brand Storytelling', 'Fragrance'],
-    imageUrl: 'https://picsum.photos/seed/chanel-perfume/600/400',
-    imageHint: 'perfume bottle elegant'
+    title: 'Versace "Medusa" Campaign',
+    description: 'A bold, interactive campaign exploring the power and allure of the Medusa emblem, a cornerstone of the Versace brand.',
+    tags: ['Interactive Campaign', 'Brand Storytelling', 'Animation'],
+    imageUrl: 'https://picsum.photos/seed/versace-medusa/600/400',
+    imageHint: 'medusa logo gold'
   },
   {
     title: 'Dior "J\'adore" Campaign',
