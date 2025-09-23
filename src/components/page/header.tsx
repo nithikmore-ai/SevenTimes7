@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { navLinks, socialLinks } from '@/lib/data';
+import { navLinks } from '@/lib/data';
 import { cn } from '@/lib/utils';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -45,21 +45,6 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="hidden md:flex items-center gap-4">
-          {socialLinks.map((link) => (
-            <a
-              key={link.name}
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={link.name}
-              className="text-foreground/70 hover:text-primary transition-colors"
-            >
-              <link.icon className="h-5 w-5" />
-            </a>
-          ))}
-        </div>
-
         <div className="md:hidden">
           <Button onClick={toggleMenu} variant="ghost" size="icon">
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -81,21 +66,6 @@ export default function Header() {
               </Link>
             ))}
           </nav>
-          <div className="flex justify-center items-center gap-6 mt-6">
-            {socialLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={link.name}
-                className="text-foreground/70 hover:text-primary transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                <link.icon className="h-6 w-6" />
-              </a>
-            ))}
-          </div>
         </div>
       )}
     </header>
