@@ -41,7 +41,7 @@ export const projectsData: Project[] = [
     title: 'Prada "Re-Nylon" Site',
     description: 'A storytelling-driven microsite highlighting Prada\'s sustainable Re-Nylon collection, built with Next.js for peak performance.',
     tags: ['Next.js', 'Headless CMS', 'Sustainable Fashion'],
-    imageUrl: "https://picsum.photos/seed/fashion-project-2/600/400",
+    imageUrl: "https://images.unsplash.com/photo-1630696779947-7e349002cc38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxQcmFkYXxlbnwwfHx8fDE3NTg2MTc0Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     imageHint: "clothing rack minimalist"
   },
   {
