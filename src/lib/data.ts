@@ -59,10 +59,10 @@ export const projectsData: Project[] = [
     imageHint: 'leather handbag'
   },
   {
-    title: 'Prada Monolith Boots',
-    description: 'A bold, animated campaign site for the chunky Prada Monolith boots, capturing their rebellious spirit.',
+    title: 'Balenciaga Campaign',
+    description: 'A bold, animated campaign site for Balenciaga, capturing their rebellious spirit.',
     tags: ['Animation', 'Brand Campaign', 'Footwear'],
-    imageUrl: 'https://picsum.photos/seed/prada-boots/600/400',
+    imageUrl: 'https://picsum.photos/seed/balenciaga-boots/600/400',
     imageHint: 'black boots'
   },
   {
