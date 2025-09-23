@@ -3,7 +3,8 @@ import React from "react";
 
 export type NavLink = {
   name: string;
-  hash: string;
+  href: string;
+  external?: boolean;
 };
 
 export type SocialLink = {

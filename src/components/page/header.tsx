@@ -21,6 +21,31 @@ export default function Header() {
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
+  const renderLink = (link: (typeof navLinks)[0]) => {
+    if (link.external) {
+      return (
+        <a
+          href={link.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-foreground/70 hover:text-primary transition-colors"
+          onClick={() => isMenuOpen && setIsMenuOpen(false)}
+        >
+          {link.name}
+        </a>
+      );
+    }
+    return (
+      <Link
+        href={link.href}
+        className="font-medium text-foreground/70 hover:text-primary transition-colors"
+        onClick={() => isMenuOpen && setIsMenuOpen(false)}
+      >
+        {link.name}
+      </Link>
+    );
+  };
+
   return (
     <header
       className={cn(
@@ -35,13 +60,7 @@ export default function Header() {
 
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
-            <Link
-              key={link.hash}
-              href={link.hash}
-              className="font-medium text-foreground/70 hover:text-primary transition-colors"
-            >
-              {link.name}
-            </Link>
+            <React.Fragment key={link.name}>{renderLink(link)}</React.Fragment>
           ))}
         </nav>
 
@@ -56,14 +75,7 @@ export default function Header() {
         <div className="md:hidden bg-background/95 backdrop-blur-sm pb-4">
           <nav className="flex flex-col items-center gap-4 pt-4">
             {navLinks.map((link) => (
-              <Link
-                key={link.hash}
-                href={link.hash}
-                className="font-medium text-foreground/80 hover:text-primary transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {link.name}
-              </Link>
+               <React.Fragment key={link.name}>{renderLink(link)}</React.Fragment>
             ))}
           </nav>
         </div>

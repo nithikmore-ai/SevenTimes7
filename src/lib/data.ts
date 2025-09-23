@@ -3,11 +3,12 @@ import { DribbbleIcon } from '@/components/icons/dribbble-icon';
 import { NavLink, Project, SkillCategory, SocialLink, Testimonial } from './types';
 
 export const navLinks: NavLink[] = [
-  { name: 'Vision', hash: '#about' },
-  { name: 'Collections', hash: '#projects' },
-  { name: 'Expertise', hash: '#skills' },
-  { name: 'Acclaim', hash: '#testimonials' },
-  { name: 'Contact', hash: '#contact' },
+  { name: 'Vision', href: '#about' },
+  { name: 'Collections', href: '#projects' },
+  { name: 'Expertise', href: '#skills' },
+  { name: 'Acclaim', href: '#testimonials' },
+  { name: 'Blog', href: 'https://www.vogue.com/fashion', external: true },
+  { name: 'Contact', href: '#contact' },
 ];
 
 export const socialLinks: SocialLink[] = [
