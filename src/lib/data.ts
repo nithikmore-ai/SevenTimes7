@@ -21,7 +21,7 @@ export const socialLinks: SocialLink[] = [
 export const skillData: SkillCategory[] = [
   {
     title: 'Creative & Strategy',
-    skills: ['Luxury Brand Strategy', 'Digital Collection Launch', 'Campaign Conception', 'AR & Virtual Try-On', 'Web3 & NFT Strategy', 'Experiential Design'],
+    skills: ['Luxury Brand Strategy', 'Digital Collection Launch', 'Campaign Conception', 'Web3 & NFT Strategy', 'Experiential Design'],
   },
   {
     title: 'Events',
