@@ -3,15 +3,15 @@ import SectionHeading from './section-heading';
 
 export default function About() {
   return (
-    <section id="about" className="w-full max-w-5xl pt-24 sm:pt-32 scroll-mt-28">
+    <section id="about" className="w-full max-w-5xl pt-32 scroll-mt-28">
       <SectionHeading>The Vision</SectionHeading>
       <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-center">
         <div className="md:col-span-1 flex justify-center">
           <Image
-            src="https://picsum.photos/seed/fashion-portrait/500/500"
+            src="https://images.unsplash.com/photo-1593418632104-71bd668d1af1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsdXh1cnklMjBicmFuZHxlbnwwfHx8fDE3NTg2MTI1MjR8MA&ixlib=rb-4.1.0&q=80&w=1080"
             alt="Portrait of the lead designer"
-            width={250}
-            height={250}
+            width={300}
+            height={300}
             quality={95}
             priority
             className="rounded-full object-cover border-4 border-primary/20 shadow-lg"
