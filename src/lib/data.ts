@@ -62,7 +62,7 @@ export const projectsData: Project[] = [
     title: 'Balenciaga Campaign',
     description: 'A bold, animated campaign site for Balenciaga, capturing their rebellious spirit.',
     tags: ['Animation', 'Brand Campaign', 'Footwear'],
-    imageUrl: 'https://images.unsplash.com/photo-1648759287747-dbc62ff066a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNnx8QmFsZW5jaWFnYSUyMHNob2VzfGVufDB8fHx8MTc1ODYxODcyNnww&ixlib=rb-4.1.0&q=80&w=1080',
+    imageUrl: 'https://images.unsplash.com/photo-1689711880342-0cb516d7be0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxN3x8YmFsZW5jaWFnYSUyMHNhbmRlbHN8ZW58MHx8fHwxNzU4NjE5NDcxfDA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'black boots'
   },
   {
