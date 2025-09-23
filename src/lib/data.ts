@@ -24,7 +24,7 @@ export const skillData: SkillCategory[] = [
     skills: ['Luxury Brand Strategy', 'Digital Collection Launch', 'Campaign Conception', 'AR & Virtual Try-On', 'Web3 & NFT Strategy', 'Experiential Design'],
   },
   {
-    title: 'Technology & Platform',
+    title: 'Events',
     skills: ['Live-streamed Runway Shows', 'Virtual Showrooms', 'Interactive Guest Experiences', 'Second Screen Applications', 'Digital Twin Environments', 'Real-time Social Integration'],
   },
 ];
