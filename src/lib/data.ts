@@ -6,6 +6,7 @@ export const navLinks: NavLink[] = [
   { name: 'Vision', href: '#about' },
   { name: 'Collections', href: '/collections' },
   { name: 'Expertise', href: '#skills' },
+  { name: 'Brands', href: '#brands' },
   { name: 'Acclaim', href: '#testimonials' },
   { name: 'Blog', href: 'https://www.vogue.com/fashion', external: true },
   { name: 'Contact', href: '#contact' },

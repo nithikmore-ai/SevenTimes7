@@ -9,6 +9,7 @@ import Footer from '@/components/page/footer';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
+import Brands from '@/components/page/brands';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
             </Button>
         </div>
         <Skills />
+        <Brands />
         <Testimonials />
         <Contact />
       </main>
