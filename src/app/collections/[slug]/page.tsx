@@ -1,7 +1,6 @@
 import { projectsData } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
-import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
@@ -47,17 +46,6 @@ export default function ProjectDetailsPage({ params }: { params: { slug: string 
 
             <div className="prose prose-lg dark:prose-invert max-w-none mx-auto text-muted-foreground space-y-4">
                 <p className="text-xl">{project.description}</p>
-            </div>
-
-            <div className="mt-8">
-              <h3 className="text-xl font-semibold mb-4 font-headline text-primary">Technologies & Concepts</h3>
-              <div className="flex flex-wrap gap-2">
-                {project.tags.map((tag, tagIndex) => (
-                  <Badge key={tagIndex} variant="secondary" className="text-sm">
-                    {tag}
-                  </Badge>
-                ))}
-              </div>
             </div>
 
             {project.liveUrl && (
