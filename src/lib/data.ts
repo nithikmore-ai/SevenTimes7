@@ -51,6 +51,27 @@ export const projectsData: Project[] = [
     imageUrl: "https://images.unsplash.com/photo-1592840054664-6bc0f6fbc3d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxDaGFuZWx8ZW58MHx8fHwxNzU4NjE3MzkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
     imageHint: "fashion runway show"
   },
+  {
+    title: 'Gucci Marmont Handbag',
+    description: 'A 3D interactive model of the iconic Gucci Marmont handbag, allowing users to explore the craftsmanship in detail.',
+    tags: ['3D Modeling', 'E-commerce', 'Product Showcase'],
+    imageUrl: 'https://picsum.photos/seed/gucci-bag/600/400',
+    imageHint: 'leather handbag'
+  },
+  {
+    title: 'Prada Monolith Boots',
+    description: 'A bold, animated campaign site for the chunky Prada Monolith boots, capturing their rebellious spirit.',
+    tags: ['Animation', 'Brand Campaign', 'Footwear'],
+    imageUrl: 'https://picsum.photos/seed/prada-boots/600/400',
+    imageHint: 'black boots'
+  },
+  {
+    title: 'Chanel No. 5 Experience',
+    description: 'A virtual journey through the history and creation of the legendary Chanel No. 5 perfume.',
+    tags: ['Virtual Reality', 'Brand Storytelling', 'Fragrance'],
+    imageUrl: 'https://picsum.photos/seed/chanel-perfume/600/400',
+    imageHint: 'perfume bottle elegant'
+  },
 ];
 
 export const testimonialsData: Testimonial[] = [
