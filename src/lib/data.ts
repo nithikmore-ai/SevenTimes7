@@ -76,7 +76,7 @@ export const projectsData: Project[] = [
     title: 'Dior "J\'adore" Campaign',
     description: 'A golden, shimmering web experience for the iconic J\'adore fragrance.',
     tags: ['Animation', 'Luxury Branding', 'Fragrance'],
-    imageUrl: 'https://picsum.photos/seed/dior-perfume/600/400',
+    imageUrl: 'https://diorama.dam-broadcast.com/cdn-cgi/image/width=1850,format=auto/pm_11872_1165_1165593-iniflxbeyq-whr.jpg',
     imageHint: 'perfume bottle gold'
   },
   {
