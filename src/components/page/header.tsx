@@ -54,7 +54,7 @@ export default function Header() {
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
-        <Link href="/" className="text-2xl font-bold text-primary hover:text-primary/80 transition-colors">
+        <Link href="/" className="font-body text-2xl font-bold text-primary hover:text-primary/80 transition-colors">
           7x7 Fashion
         </Link>
 
