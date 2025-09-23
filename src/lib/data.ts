@@ -55,7 +55,7 @@ export const projectsData: Project[] = [
 
 export const testimonialsData: Testimonial[] = [
   {
-    quote: "FASHION NXT brought our digital vision to life with unparalleled elegance and technical prowess. Their understanding of luxury is innate.",
+    quote: "7x7 Fashion brought our digital vision to life with unparalleled elegance and technical prowess. Their understanding of luxury is innate.",
     name: 'Alessandro Michele',
     title: 'Creative Director, Gucci',
   },

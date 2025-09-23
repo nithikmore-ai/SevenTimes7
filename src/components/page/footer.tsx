@@ -22,7 +22,7 @@ export default function Footer() {
             "Style is a way to say who you are without having to speak."
         </p>
         <small className="text-xs text-muted-foreground">
-          &copy; {new Date().getFullYear()} FASHION NXT. All rights reserved.
+          &copy; {new Date().getFullYear()} 7x7 Fashion. All rights reserved.
         </small>
       </div>
     </footer>

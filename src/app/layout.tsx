@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'FASHION NXT - A Premier Fashion Portfolio',
+  title: '7x7 Fashion - A Premier Fashion Portfolio',
   description: 'Exploring the intersection of high fashion, design, and technology. A digital portfolio showcasing cutting-edge fashion projects.',
 };
 

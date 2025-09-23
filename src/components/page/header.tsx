@@ -55,7 +55,7 @@ export default function Header() {
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <Link href="/" className="text-2xl font-bold text-primary hover:text-primary/80 transition-colors">
-          FASHION NXT
+          7x7 Fashion
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">

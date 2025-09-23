@@ -20,7 +20,7 @@ export default function About() {
         </div>
         <div className="md:col-span-2 text-center md:text-left text-muted-foreground space-y-4">
           <p>
-            Welcome to FASHION NXT, where classic elegance meets modern innovation. We are a collective of digital artisans and fashion connoisseurs dedicated to crafting the future of style. Our work is a testament to the belief that fashion is not just about clothing, but about storytelling and identity.
+            Welcome to 7x7 Fashion, where classic elegance meets modern innovation. We are a collective of digital artisans and fashion connoisseurs dedicated to crafting the future of style. Our work is a testament to the belief that fashion is not just about clothing, but about storytelling and identity.
           </p>
           <p>
             With a pulse on the ever-evolving trends of the fashion world, we create digital experiences that are as captivating and timeless as the brands we partner with. We specialize in bringing haute couture to the digital realm, ensuring every pixel reflects luxury and sophistication.
