@@ -7,7 +7,7 @@ export const navLinks: NavLink[] = [
   { name: 'Collections', href: '#projects' },
   { name: 'Expertise', href: '#skills' },
   { name: 'Acclaim', href: '#testimonials' },
-  { name: 'Blog', href: 'https://www.vogue.com/fashion', external: true },
+  { name: 'Blog', href: 'https://www.sonachavan.com', external: true },
   { name: 'Contact', href: '#contact' },
 ];
 
