@@ -83,7 +83,7 @@ export const projectsData: Project[] = [
     title: 'Louis Vuitton "Keepall" Bag',
     description: 'An interactive 3D configurator for the classic Keepall travel bag.',
     tags: ['3D Modeling', 'E-commerce', 'Luxury Goods'],
-    imageUrl: 'https://picsum.photos/seed/lv-bag/600/400',
+    imageUrl: 'https://images.unsplash.com/photo-1753718605172-86d37d27596d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyMHx8TG91aXMlMjB2dWl0dG9uJTIwZHVmZmVsJTIwYmFnfGVufDB8fHx8MTc1ODYxOTc0M3ww&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'travel bag pattern'
   },
   {
