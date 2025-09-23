@@ -30,7 +30,7 @@ export default function Hero() {
       </div>
       <div className="absolute bottom-10 animate-bounce">
          <Link href="#about" aria-label="Scroll to about section">
-            <MoveDown className="h-8 w-8 text-muted-foreground hover:text-primary transition-colors" />
+            <MoveDown className="h-10 w-10 text-muted-foreground hover:text-primary transition-colors" />
          </Link>
       </div>
     </section>
