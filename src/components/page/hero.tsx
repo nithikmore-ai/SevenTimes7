@@ -7,7 +7,7 @@ export default function Hero() {
     <section id="home" className="w-full max-w-5xl min-h-screen flex flex-col items-center justify-center text-center px-4">
       <div className="animate-fade-in-up">
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-primary">
-          7x7 Fashion
+          SevenTimes7 Fashion
         </h1>
         <p className="mt-4 text-lg md:text-2xl text-foreground/80 font-headline">
           Digital Couture & Brand Innovation
