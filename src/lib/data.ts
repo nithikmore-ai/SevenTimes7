@@ -25,7 +25,7 @@ export const skillData: SkillCategory[] = [
   },
   {
     title: 'Technology & Platform',
-    skills: ['Next.js & React', 'Photorealistic 3D', 'WebGL & Three.js', 'Headless E-commerce', 'Generative AI', 'Custom Shopify Apps'],
+    skills: ['Live-streamed Runway Shows', 'Virtual Showrooms', 'Interactive Guest Experiences', 'Second Screen Applications', 'Digital Twin Environments', 'Real-time Social Integration'],
   },
 ];
 
