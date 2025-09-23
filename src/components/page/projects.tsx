@@ -35,15 +35,6 @@ export default function Projects({ limit }: ProjectsProps) {
                 </div>
                 <p className="text-muted-foreground text-sm">{project.description}</p>
               </CardContent>
-              <CardFooter className="flex flex-col items-start gap-4">
-                  <div className="flex flex-wrap gap-2">
-                      {project.tags.map((tag, tagIndex) => (
-                      <Badge key={tagIndex} variant="secondary">
-                          {tag}
-                      </Badge>
-                      ))}
-                  </div>
-              </CardFooter>
             </Card>
           </Link>
         ))}
