@@ -89,7 +89,7 @@ export const projectsData: Project[] = [
   {
     title: 'Michael Kors "Bradshaw" Watch',
     description: 'A sleek, elegant product page for the Bradshaw smartwatch collection.',
-    tags: ['UI/UX', 'Product Page', 'Wearable Tech'],
+    tags: ['UI/UX', 'rome', 'Wearable Tech'],
     imageUrl: 'https://images.unsplash.com/photo-1734341739615-71be2b1cdb06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxNSyUyMHdvbWVuJTIwdGltZXdhdGNofGVufDB8fHx8MTc1ODYxOTg1OHww&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'gold watch'
   },
