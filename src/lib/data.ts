@@ -52,10 +52,10 @@ export const projectsData: Project[] = [
     imageHint: "fashion runway show"
   },
   {
-    title: 'Gucci Marmont Handbag',
-    description: 'A 3D interactive model of the iconic Gucci Marmont handbag, allowing users to explore the craftsmanship in detail.',
+    title: 'Coach Handbag',
+    description: 'A 3D interactive model of a classic Coach handbag, allowing users to explore the craftsmanship in detail.',
     tags: ['3D Modeling', 'E-commerce', 'Product Showcase'],
-    imageUrl: 'https://picsum.photos/seed/gucci-bag/600/400',
+    imageUrl: 'https://picsum.photos/seed/coach-bag/600/400',
     imageHint: 'leather handbag'
   },
   {
