@@ -48,7 +48,7 @@ export const projectsData: Project[] = [
     title: 'Chanel "Métiers d\'Art" Lookbook',
     description: 'A digital lookbook showcasing the intricate details of the Chanel "Métiers d\'Art" collection through high-resolution imagery and video.',
     tags: ['Digital Lookbook', 'UI/UX', 'Luxury E-commerce'],
-    imageUrl: "https://picsum.photos/seed/fashion-project-3/600/400",
+    imageUrl: "https://images.unsplash.com/photo-1592840054664-6bc0f6fbc3d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxDaGFuZWx8ZW58MHx8fHwxNzU4NjE3MzkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
     imageHint: "fashion runway show"
   },
 ];
