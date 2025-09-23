@@ -39,6 +39,12 @@ const nextConfig: NextConfig = {
         hostname: 'shop.mango.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'static.fendi.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

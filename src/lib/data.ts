@@ -111,7 +111,7 @@ export const projectsData: Project[] = [
     title: 'Fendi "Baguette" Bag',
     description: 'A campaign microsite celebrating the 25th anniversary of the Fendi Baguette bag.',
     tags: ['Brand Storytelling', 'Microsite', 'Handbags'],
-    imageUrl: 'https://picsum.photos/seed/fendi-bag/600/400',
+    imageUrl: 'https://static.fendi.com/dam/is/image/fendi/8BR839AV5CF18H6_01?wid=1000&hei=1000&hash=947cfc7b75687c419de4c391f22019dc-197e90f8458',
     imageHint: 'designer handbag'
   },
   {
