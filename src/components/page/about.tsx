@@ -3,7 +3,7 @@ import SectionHeading from './section-heading';
 
 export default function About() {
   return (
-    <section id="about" className="w-full max-w-5xl py-24 sm:py-32 scroll-mt-28">
+    <section id="about" className="w-full max-w-5xl pt-24 sm:pt-32 scroll-mt-28">
       <SectionHeading>The Vision</SectionHeading>
       <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-center">
         <div className="md:col-span-1 flex justify-center">
