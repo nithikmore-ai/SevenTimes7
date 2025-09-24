@@ -21,7 +21,6 @@ export default function Header() {
     
     if (typeof window !== 'undefined') {
       window.addEventListener('scroll', handleScroll);
-      handleScroll(); 
     }
 
     return () => {
