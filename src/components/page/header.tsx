@@ -50,16 +50,16 @@ export default function Header() {
   return (
     <header
       className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-all duration-300 font-headline',
+        'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
         isScrolled ? 'bg-background/80 backdrop-blur-sm shadow-md' : 'bg-transparent'
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
-        <Link href="/" className="font-body text-2xl font-bold text-primary hover:text-primary/80 transition-colors">
+        <Link href="/" className="font-sans text-2xl font-bold text-primary hover:text-primary/80 transition-colors">
           SevenTimes7 Fashion
         </Link>
 
-        <nav className="hidden md:flex items-center gap-6">
+        <nav className="hidden md:flex items-center gap-6 font-headline">
           {navLinks.map((link) => (
             <React.Fragment key={link.name}>{renderLink(link)}</React.Fragment>
           ))}
@@ -74,7 +74,7 @@ export default function Header() {
       
       {isMenuOpen && (
         <div className="md:hidden bg-background/95 backdrop-blur-sm pb-4">
-          <nav className="flex flex-col items-center gap-4 pt-4">
+          <nav className="flex flex-col items-center gap-4 pt-4 font-headline">
             {navLinks.map((link) => (
                <React.Fragment key={link.name}>{renderLink(link)}</React.Fragment>
             ))}
