@@ -1,6 +1,16 @@
+
+'use client';
+
+import React, { useState, useEffect } from 'react';
 import { socialLinks } from '@/lib/data';
 
 export default function Footer() {
+  const [currentYear, setCurrentYear] = useState('');
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear().toString());
+  }, []);
+
   return (
     <footer className="bg-secondary text-secondary-foreground py-8">
       <div className="container mx-auto px-4 text-center">
@@ -22,7 +32,7 @@ export default function Footer() {
             "Style is a way to say who you are without having to speak."
         </p>
         <small className="text-xs text-muted-foreground">
-          &copy; {new Date().getFullYear()} 7x7 Fashion. All rights reserved.
+          &copy; {currentYear} 7x7 Fashion. All rights reserved.
         </small>
       </div>
     </footer>
