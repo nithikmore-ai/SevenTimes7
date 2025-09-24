@@ -14,10 +14,21 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
+      if (typeof window !== 'undefined') {
+        setIsScrolled(window.scrollY > 10);
+      }
     };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', handleScroll);
+      handleScroll(); 
+    }
+
+    return () => {
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('scroll', handleScroll);
+      }
+    };
   }, []);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
